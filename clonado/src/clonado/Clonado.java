@@ -18,7 +18,9 @@ public class Clonado {
         // TODO code application logic here
         int solucionsuma , solucionresta;
         solucionresta = resta(8,2);
+        solucionsuma = suma(5,4)
         System.out.println("El resultado de la resta es:" + solucionresta);
+        System.out.println("El resultado de la suma es:" + solucionsuma);
     }
 
    public static int resta (int a, int b){
@@ -26,4 +28,10 @@ public class Clonado {
       sol = a - b;
       return sol;
   }
+    
+    public static int suma (int a, int b){
+        int sol;
+        sol = a + b;
+        return sol;
+    }
 }
