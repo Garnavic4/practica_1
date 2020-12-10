@@ -17,18 +17,10 @@ public class Clonado {
     public static void main(String[] args) {
         // TODO code application logic here
         int solucionsuma , solucionresta;
-        solucionsuma = suma(5,7);
         solucionresta = resta(8,2);
-        System.out.println("El resultado de la suma es:" + solucionsuma);
         System.out.println("El resultado de la resta es:" + solucionresta);
     }
 
-
-  public static int suma (int a, int b){
-      int sol;
-      sol = a + b;
-      return sol;
-  }
    public static int resta (int a, int b){
       int sol;
       sol = a - b;
